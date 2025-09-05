@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +16,6 @@ body {
     align-items: center;
     padding: 20px;
 }
-
-/* Form Container */
 .form-container {
     background: white;
     padding: 2.5rem;
@@ -40,14 +38,12 @@ body {
     margin-bottom: 2rem;
 }
 
-/* Form Layout */
 form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
 
-/* Label & Input */
 .form-group {
     display: flex;
     flex-direction: column;
@@ -77,12 +73,9 @@ form {
     box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.2);
 }
 
-/* Placeholder color */
 .form-group input::placeholder {
     color: #aaa;
 }
-
-/* Remember Me & Forgot Password */
 .form-options {
     display: flex;
     justify-content: space-between;
@@ -113,7 +106,6 @@ form {
     text-decoration: underline;
 }
 
-/* Submit Button */
 .submit-btn {
     margin-top: 0.5rem;
     padding: 14px;
@@ -133,7 +125,6 @@ form {
     box-shadow: 0 5px 15px rgba(74, 108, 247, 0.3);
 }
 
-/* Sign Up Link */
 .signup-link {
     margin-top: 1.5rem;
     color: #555;
@@ -150,7 +141,6 @@ form {
     text-decoration: underline;
 }
 
-/* Responsive */
 @media (max-width: 480px) {
     .form-container {
         padding: 1.8rem;
